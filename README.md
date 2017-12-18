@@ -3,6 +3,8 @@
 This repository contains my personal Portage package user patches
 ([`/etc/portage/patches`][portage-user-patches]) for [Gentoo Linux][gentoo].
 
+See also my [Portage overlay][smkent-portage-overlay] repository.
+
 ## License
 
 This program is free software: you can redistribute it and/or modify
@@ -20,5 +22,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 See [`LICENSE`](/LICENSE) for the full license text.
 
+[smkent-portage-overlay]: https://github.com/smkent/portage-overlay
 [portage-user-patches]: https://wiki.gentoo.org/wiki//etc/portage/patches
 [gentoo]: https://www.gentoo.org
