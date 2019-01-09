@@ -1,8 +1,9 @@
---- a/ddclient		2009-01-27 14:14:02.000000000 -0500
-+++ b/ddclient		2011-01-09 23:01:39.760072001 -0500
-@@ -524,6 +524,16 @@
-                           $variables{'service-common-defaults'},
-                         ),
+diff -Naur a/ddclient b/ddclient
+--- a/ddclient	2018-08-09 08:58:16.000000000 -0700
++++ b/ddclient	2019-01-08 21:52:43.733174142 -0800
+@@ -685,6 +685,16 @@
+             $variables{'woima-service-common-defaults'},
+         ),
      },
 +    'linode' => {
 +        'updateable' => undef,
@@ -17,7 +18,7 @@
  );
  $variables{'merged'} = merge($variables{'global-defaults'},
  			     $variables{'service-common-defaults'},
-@@ -3368,6 +3378,86 @@
+@@ -3655,6 +3665,86 @@
              $config{$h}{'ip'}     = $ip;
              $config{$h}{'mtime'}  = $now;
              $config{$h}{'status'} = 'good';
