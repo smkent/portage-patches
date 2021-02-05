@@ -82,7 +82,7 @@ diff -Naur a/ddclient b/ddclient
 +        verbose("UPDATE:","updating %s", $h);
 +
 +        my $url;
-+        $url   = "http://$config{$h}{'server'}/";
++        $url   = "https://$config{$h}{'server'}/";
 +        $url  .= "?api_key=$config{$h}{'password'}";
 +        $url  .= "&api_action=domain.resource.update";
 +        $url  .= "&DomainID=$config{$h}{'login'}";
